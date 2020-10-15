@@ -173,7 +173,7 @@ title: 选项卡 Segment
 
 | 外部样式类名    | 说明    | 备注 |
 | :--------- | :----------------- | :----- |
-| l-class | 覆盖选项卡整体样式 | - |
+| l-class | 覆盖选项卡整体样式 | 宽和高填的百分比为什么无效，如果要做响应式不能填固定的怎么办 |
 | l-header-class | 覆盖选项卡整体样式 | 与`l-class`区别，该属性主要设置选项卡的`height`和`width` |
 | l-active-class | 覆盖选项卡激活状态样式 | 替代l-class-active |
 | l-inactive-class |覆盖选项卡默认状态样式 | 替代l-class-inactive |
